@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Prompt Engineering to Agent Teams timeline</title>
+  <desc id="desc">Four-stage GitHub profile timeline: prompt engineering, knowledge-manager, akwiki, and agent teams.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8F5EE"/>
+      <stop offset="1" stop-color="#E8EEF7"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="0.35" stop-color="#2F80ED"/>
+      <stop offset="0.7" stop-color="#14B8A6"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font:700 30px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#0F172A}
+      .subtitle{font:500 15px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#475569}
+      .stage{font:800 22px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#111827}
+      .meta{font:600 14px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#334155}
+      .body{font:500 13px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#64748B}
+      .num{font:800 16px ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#FFFFFF}
+      .card{fill:#FFFFFF;stroke:#CBD5E1;stroke-width:1.2}
+      .dark .title{fill:#F8FAFC}.dark .subtitle{fill:#CBD5E1}.dark .stage{fill:#F8FAFC}.dark .meta{fill:#E2E8F0}.dark .body{fill:#CBD5E1}.dark .card{fill:#111827;stroke:#334155}
+    </style>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <g class="dark" opacity="0" aria-hidden="true">
+    <rect width="1280" height="420" rx="28" fill="#0B1220"/>
+  </g>
+  <text x="64" y="62" class="title">From prompts to an operating agent stack</text>
+  <text x="64" y="90" class="subtitle">Each layer exists because the previous one overflowed.</text>
+  <path d="M110 205 C260 145 360 265 510 205 S760 145 910 205 S1040 265 1170 205" fill="none" stroke="url(#rail)" stroke-width="10" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <g transform="translate(64 126)">
+      <rect class="card" width="250" height="214" rx="18"/>
+      <circle cx="38" cy="42" r="18" fill="#F59E0B"/>
+      <text x="33" y="48" class="num">1</text>
+      <text x="68" y="43" class="stage">Prompt</text>
+      <text x="68" y="69" class="meta">engineering</text>
+      <text x="28" y="114" class="body">Prompts treated as</text>
+      <text x="28" y="136" class="body">versioned engineering</text>
+      <text x="28" y="158" class="body">artifacts across models.</text>
+      <path d="M32 184 H218" stroke="#F59E0B" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(365 126)">
+      <rect class="card" width="250" height="214" rx="18"/>
+      <circle cx="38" cy="42" r="18" fill="#2F80ED"/>
+      <text x="33" y="48" class="num">2</text>
+      <text x="68" y="43" class="stage">knowledge-</text>
+      <text x="68" y="69" class="meta">manager</text>
+      <text x="28" y="114" class="body">Extract, structure,</text>
+      <text x="28" y="136" class="body">store, and link more</text>
+      <text x="28" y="158" class="body">than 13,000 notes.</text>
+      <path d="M48 188 C78 160 98 194 126 172 S178 158 210 188" fill="none" stroke="#2F80ED" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="48" cy="188" r="5" fill="#2F80ED"/><circle cx="126" cy="172" r="5" fill="#2F80ED"/><circle cx="210" cy="188" r="5" fill="#2F80ED"/>
+    </g>
+    <g transform="translate(666 126)">
+      <rect class="card" width="250" height="214" rx="18"/>
+      <circle cx="38" cy="42" r="18" fill="#14B8A6"/>
+      <text x="33" y="48" class="num">3</text>
+      <text x="68" y="43" class="stage">akwiki.org</text>
+      <text x="68" y="69" class="meta">publishing loop</text>
+      <text x="28" y="114" class="body">Community dialogue</text>
+      <text x="28" y="136" class="body">becomes articles,</text>
+      <text x="28" y="158" class="body">archives, and maps.</text>
+      <rect x="32" y="180" width="54" height="10" rx="5" fill="#14B8A6"/>
+      <rect x="96" y="180" width="78" height="10" rx="5" fill="#99F6E4"/>
+      <rect x="184" y="180" width="34" height="10" rx="5" fill="#14B8A6"/>
+    </g>
+    <g transform="translate(967 126)">
+      <rect class="card" width="250" height="214" rx="18"/>
+      <circle cx="38" cy="42" r="18" fill="#1E293B"/>
+      <text x="33" y="48" class="num">4</text>
+      <text x="68" y="43" class="stage">Agent</text>
+      <text x="68" y="69" class="meta">Teams</text>
+      <text x="28" y="114" class="body">Specialized bots run</text>
+      <text x="28" y="136" class="body">research, schedules,</text>
+      <text x="28" y="158" class="body">writing, and engineering.</text>
+      <g fill="#1E293B">
+        <circle cx="46" cy="188" r="7"/><circle cx="74" cy="188" r="7"/><circle cx="102" cy="188" r="7"/><circle cx="130" cy="188" r="7"/><circle cx="158" cy="188" r="7"/><circle cx="186" cy="188" r="7"/><circle cx="214" cy="188" r="7"/>
+      </g>
+    </g>
+  </g>
+</svg>
